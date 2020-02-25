@@ -6,6 +6,7 @@ body{
   
   background-size: 100%,100%;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -142,4 +143,11 @@ body{
 .btn-facebook {
   color: white;
   background-color: #3b5998;
+}
+.register_link{
+  align-items: right;
+  margin: 19%;
+}
+.custom-control{
+  margin-left: 25%;
 }

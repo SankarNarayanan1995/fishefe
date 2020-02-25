@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 const Navigation = (props) => {
     return(
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -15,7 +16,7 @@ const Navigation = (props) => {
             <a class="nav-link js-scroll-trigger" href="#services">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Fish-E Pedia</a>
+          <Link className="nav-link" to ="/fishepedia">Fish-E Pedia</Link>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">Fishstagram</a>
